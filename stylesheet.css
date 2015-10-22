@@ -71,7 +71,15 @@ body{
     background-color: #272e38;
     padding: 2%;
     width: 550px;
-    border: rgba(0, 0, 0, 1);
+    border: rgba(top: 745px;
+    background-color: #3a463b;
+    height: 30px;
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    padding: 10px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;0, 0, 0, 1);
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     font-family: helvetica, arial, sans-serif;
@@ -104,15 +112,15 @@ body{
 }
 
 #azFooter {
-    top: 745px;
     background-color: #3a463b;
     height: 30px;
     color: white;
     font-family: helvetica, arial, sans-serif;
     padding: 10px;
-    bottom: 0;
+    bottom: 0px;
     position: absolute;
     width: 100%;
+    top: 770px;
 }
 
 #resources {
@@ -190,4 +198,50 @@ div#hmenu ul a:hover{
     font-size: medium;
     color: #f6f0cc;
     background-color: #227755;
+}
+
+#photoHolder {
+    position: absolute;
+    background-color: #232323;
+    border: ridge;
+    margin: 20px;
+}
+
+#photoFooter {
+    background-color: #3a463b;
+    height: 30px;
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    top: 1250px;
+}
+
+table {
+    table-layout: fixed;
+    width: 900px;
+}
+
+td {
+    color: whitesmoke;
+    width: 300px;
+    word-wrap: break-word;
+    font-family: helvetica, arial, sans-serif;
+}
+
+#instructions {
+    position: absolute;
+    margin: 0 20px 20px 20px;
+    background-color: #3cc96f;
+    padding: 2%;
+    width: 400px;
+    border: rgba(0, 0, 0, 1);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 125%;
+    color: #ffffff;
+    left: 950px;
+    top: 136px;
 }
